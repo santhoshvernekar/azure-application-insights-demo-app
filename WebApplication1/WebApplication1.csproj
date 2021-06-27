@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>a0a09d54-25dc-42c8-a3d9-290ebb95400e</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/f700a502-f4c5-42f4-8f1d-cacab88d7d39/resourceGroups/Regroup_9ieb/providers/microsoft.insights/components/san-app-insights</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
